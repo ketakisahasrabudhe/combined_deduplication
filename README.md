@@ -106,8 +106,8 @@ For multilingual requirement ( product titles in different languages), check out
 * Use it to compute metrics: precision(out of all the product pairs that model predicted as duplicates, how many are actually duplicates), recall(out of all the actual duplicate pairs, how many did your model correctly detect), F1-score, ROC-AUC, etc.
 * can apply classifiers like:
 
-  * **Logistic Regression** (interpretable baseline).
-  * **Random Forests or Gradient Boosting (XGBoost)** 
+  * **Logistic Regression** .
+  * **Random Forests orXGBoost** 
 * Perform k-fold validation to check generalization.
 
 
