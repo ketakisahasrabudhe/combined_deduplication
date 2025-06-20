@@ -11,7 +11,7 @@ Three different approaches:
 
 ## 1. Basic Semantic Similarity 
 
-### **Underlying Logic**:
+### **Concept/working**:
 
 * Joins the product fields (title, brand, and attributes) into a single text string.
 * It uses a **SentenceTransformer model** (eg: MiniLM, MPNet) to convert each products combined text into a vector representation (embedding).
@@ -32,7 +32,7 @@ Three different approaches:
 
 ## 2. DBSCAN Clustering (Unsupervised)
 
-### **Underlying Logic**:
+### **Concept**:
 
 * Instead of comparing every pair individually, what the **DBSCAN** clustering algorithm does is:
 
@@ -53,7 +53,7 @@ Three different approaches:
 
 ## 3. Weighting features
 
-### **Underlying Logic**:
+### **Concept**:
 
  not all features of a product contribute equally. For example, even one different attribute can imply a completely different product
 
