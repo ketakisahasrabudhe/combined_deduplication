@@ -66,7 +66,7 @@ Three different approaches:
    * **Category**: Exact match only, since categories are expected to be standardized.
 
 **Weighted aggregation**:
-   Each feature similarity is multiplied by a weight (e.g., title: 0.45, attributes: 0.35, brand: 0.15, category: 0.05). These are normalized to sum to 1. Final score is:
+   Each feature similarity is multiplied by a weight (eg: title: 0.45, attributes: 0.35, brand: 0.15, category: 0.05). These are normalized to sum to 1. Final score is:
 
    ```
    final_score = Σ (feature_similarity × feature_weight)
